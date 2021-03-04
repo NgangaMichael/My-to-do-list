@@ -1,0 +1,113 @@
+
+body {
+	font-family: Roboto;
+	/*google UI gradient then pick bora bora */
+	/*moz is for mozzila, ms is for microsoft, o is for opera*/
+	background: linear-gradient(to left, #EAECC6, #2BC0E4);
+}
+
+h1{
+	background-color: #2980b9;
+	color: #fff;
+	margin: 0;
+	padding: 10px 20px;
+	font-weight: normal;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
+
+
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n) {
+	background-color: #F7F7F7;
+}
+
+li:hover span {
+		width: 40px;
+		opacity: 1.0;
+	}
+
+input {
+	outline: none;
+	border: 2px solid rgba(0, 0, 0, 0);
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #F7F7F7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+}
+
+input:focus {
+	background-color: #fff;
+	border: 3px solid #2980b9;
+}
+
+span {
+	background-color: #E74C3C;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: #fff;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
